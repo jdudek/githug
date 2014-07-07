@@ -9,6 +9,7 @@ require 'githug/ui'
 require 'githug/game'
 require 'githug/profile'
 require 'githug/level'
+require 'githug/notification'
 require 'githug/repository'
 
 Githug::UI.in_stream = STDIN

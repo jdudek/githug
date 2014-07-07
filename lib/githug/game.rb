@@ -18,9 +18,11 @@ module Githug
         if solve && level
           if level.solve
             UI.success "Congratulations, you have solved the level!"
+            Notification.new(level: level, success: true).deliver
             level_bump
           else
             UI.error "Sorry, this solution is not quite right!"
+            Notification.new(level: level, success: false).deliver
             profile.current_attempts += 1
             profile.save
 
@@ -52,6 +54,5 @@ module Githug
         level.setup_level
       end
     end
-
   end
 end
