@@ -7,11 +7,8 @@ module Githug
               "number_of_files_committed", "rm", "rm_cached", "stash", "rename",
               "restructure", "log", "tag", "push_tags", "commit_amend",
               "commit_in_future", "reset", "reset_soft", "checkout_file", "remote",
-              "remote_url", "pull", "remote_add", "push", "diff", "diff_cached", "blame", "branch",
-              "checkout", "checkout_tag", "checkout_tag_over_branch", "branch_at",
-              "delete_branch", "push_branch", "merge", "fetch", "repack", "cherry-pick",
-              "grep", "rename_commit", "squash", "merge_squash", "reorder", "bisect",
-              "stage_lines", "find_old_branch", "revert", "restore", "conflict"]
+              "remote_url", "pull", "remote_add", "push", "diff", "diff_cached", "blame", "branch"
+            ]
 
     attr_accessor :level_no, :level_path, :level_name
 
