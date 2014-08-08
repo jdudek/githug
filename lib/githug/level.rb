@@ -11,7 +11,7 @@ module Githug
               "checkout", "checkout_tag", "checkout_tag_over_branch", "branch_at",
               "delete_branch", "push_branch", "merge", "fetch", "repack", "cherry-pick",
               "grep", "rename_commit", "squash", "merge_squash", "reorder", "bisect",
-              "stage_lines", "find_old_branch", "revert", "restore", "conflict", "contribute"]
+              "stage_lines", "find_old_branch", "revert", "restore", "conflict"]
 
     attr_accessor :level_no, :level_path, :level_name
 
